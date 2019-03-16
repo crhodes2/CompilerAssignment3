@@ -1,0 +1,5 @@
+if (color = black)
+[
+	rt 45
+	fd 20
+]

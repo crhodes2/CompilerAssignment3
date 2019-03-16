@@ -1,0 +1,6 @@
+pd
+repeat 10
+[
+	fd 20
+	rt random(90)
+]

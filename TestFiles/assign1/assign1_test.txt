@@ -1,0 +1,80 @@
+// turtle commands
+fd
+bk
+rt
+lt
+setc
+setxy
+setx
+sety
+home
+seth
+pd
+pu
+ht
+st
+/* functions */
+color
+xcor
+ycor
+heading
+random
+/* types */
+int
+  // separators
+(
+)
+[
+]
+/* colors */
+black
+white
+orange
+yellow
+lime
+cyan
+blue
+magenta
+red
+brown
+green
+turquoise
+sky
+violet
+pink
+/* conditionals */
+if
+ifelse
+repeat
+<
+>
+=
+/* arithmatic */
++
+-
+/
+*
+// numbers
+42
+0
+-5
+// variables
+foo
+bar42
+42bar
+// examples
+x = y + 42
+fd x / 3
+setc blue
+if (x > blue)
+[
+	int y
+	y =42
+]
+setxy 42 75
+/* one line comment */
+/* two
+lines */
+/* and
+three
+lines */

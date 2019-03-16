@@ -1,0 +1,10 @@
+fd 20
+rt 42 + 3 - 5
+if (42 = 29 + 14)
+[
+	fd 36
+	home
+	rt 1 + 2 + 3
+	if (3 = 6)
+	[ home home home]
+]

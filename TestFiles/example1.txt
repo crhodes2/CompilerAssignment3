@@ -1,0 +1,61 @@
+/*
+   example1.txt
+   demonstrates Turtle grammar
+*/
+
+// constants
+int flagheight
+int flagwidth
+int starwidth
+int border
+int Rows
+int StarsPerRow
+flagheight = 75
+flagwidth = 200
+starwidth = 10
+border = 2
+Rows = 3
+StarsPerRow = 4
+
+st
+pd
+setc black
+
+// flag border
+fd flagwidth
+rt 90
+fd flagheight
+rt 90
+fd flagwidth
+rt 90
+fd flagheight
+rt 90
+
+// stars
+sety ycor + border	// give stars a little border
+setx xcor + border
+setc blue
+int left
+left = xcor
+// rows
+repeat Rows
+[
+	setx left
+	// stars
+	repeat StarsPerRow
+	[
+		fd starwidth
+		rt 90
+		fd starwidth
+		rt 90
+		fd starwidth
+		rt 90
+		fd starwidth
+		rt 90
+		setx xcor + starwidth + border	// border between stars
+	]
+	sety ycor + starwidth + border	// next row
+]
+
+ht
+

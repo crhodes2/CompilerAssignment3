@@ -1,0 +1,5 @@
+ht
+st
+setx 10
+sety 20
+seth heading

@@ -1,0 +1,42 @@
+int x
+int y
+x = 5
+y = x
+fd 10
+bk 20 + x
+rt x + 30
+lt 40
+home
+setc black + 1
+pd
+pu
+if (3 - x = color / black - 2)
+[
+	fd 10
+	bk 20
+	rt 30
+	lt 40
+	home
+	setc black + 1
+	pd
+	pu
+]
+if (xcor < 3 * 2 / x)
+[
+	home
+]
+if (ycor > 42)
+[
+	bk 20
+]
+ifelse (color = 10)
+[
+	fd 10
+]
+[
+	bk 15
+]
+repeat 3 + 4
+[
+	pd
+]

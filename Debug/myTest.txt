@@ -1,0 +1,20 @@
+fd x
+int x
+x = 45
+home
+repeat x + 5
+[
+	fd -(xcor + 5)
+	rt 42 + (3 - 5)
+]
+if (color = gold)
+[
+	fd 36
+	home
+	rt 1 + 2 + 3
+	if (3 = 6)
+	[ home home home ]
+]
+
+
+

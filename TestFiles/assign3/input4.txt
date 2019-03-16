@@ -1,0 +1,7 @@
+int x
+x = 5
+if (x < 6)
+[
+	int x;
+	rt x + 2
+]

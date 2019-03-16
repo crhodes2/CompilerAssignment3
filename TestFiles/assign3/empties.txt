@@ -1,0 +1,16 @@
+// two empty blocks for ifelse
+ifelse (color = red)
+[
+]
+[
+]
+
+// empty block for if
+if (color = red)
+[
+]
+
+// empty block for repeat
+repeat 3
+[
+]

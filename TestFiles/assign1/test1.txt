@@ -1,0 +1,53 @@
+// one line comment
+/* another one line comment */
+/* multi-
+line
+comment */
+
+fd 10
+bk 20
+rt 90
+lt 45
+setc red
+
+black
+white
+orange
+yellow
+lime
+cyan
+blue
+magenta
+red
+brown
+green
+turquoise
+sky
+violet
+pink
+
+color
+setxy 5 25
+setx -40
+sety 32
+xcor
+ycor
+home
+seth 135
+heading
+pd
+pu
+ht
+st
+die
+alive?
+crt 100
+count-turtles
+count-color red
+random 100
+repeat 360 [ fd 1 rt 1]
+if color = red [fd 5]
+ifelse color = red [fd 5] [fd 2]
+to setup crt 100 setc red end
+
+

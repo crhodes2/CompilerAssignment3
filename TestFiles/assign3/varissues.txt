@@ -1,0 +1,9 @@
+// declare twice
+// int x
+// int x
+
+// use without declaration
+// fd x + 42
+
+// assign without declaration
+x = 42

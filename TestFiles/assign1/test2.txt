@@ -1,0 +1,4 @@
+fd 3x00
+bk
+setc 100
+to xy3 fd 10 rt 90 end
